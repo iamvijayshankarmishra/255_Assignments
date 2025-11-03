@@ -56,3 +56,5 @@ X_one = pd.DataFrame([row], columns=cols)
 
 pred = pipe.predict(X_one)[0]
 print("Predicted charges:", f"{pred:,.2f}")
+```
+# Here is the video for the explanation : https://drive.google.com/drive/folders/1bpex6UALP3hM8jhuFeSuA1FbAWhF7YAa
