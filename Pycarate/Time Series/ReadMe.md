@@ -98,3 +98,5 @@ The notebook produces: clean plots, validation metrics, residual diagnostics, an
   Save to `~/.kaggle/kaggle.json` and set permissions:
   ```bash
   chmod 600 ~/.kaggle/kaggle.json
+
+  ### Here is the video explanation : https://drive.google.com/drive/folders/1NPPObpYYQWUkHfSnbolgNfHGKAnx0yBJ
