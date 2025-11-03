@@ -1,0 +1,44 @@
+# Apache Beam: End-to-End Data Pipeline (Batch + Streaming)
+
+This repo/notebook shows how to build, test, and run an **Apache Beam** pipeline that works for **batch** and **streaming** analytics:
+
+- Read input (text or events) → clean/transform (`Map`, `ParDo`, `Filter`)
+- Aggregate by key (`GroupByKey`, `CombinePerKey`, `Count/Mean`)
+- (Streaming) apply **windowing** (e.g., `FixedWindows`) with watermarks
+- Write results to files (or BigQuery if running on Google Cloud Dataflow)
+- Unit test with `TestPipeline` + `PAssert`
+
+Same code runs locally (**DirectRunner**) or scales on **Google Cloud Dataflow**.
+
+---
+
+## What is Apache Beam?
+
+Apache Beam is a **unified programming model** for batch and streaming data processing. You write your pipeline once and pick a **runner**:
+- Local: `DirectRunner` (great for development)
+- Cloud/distributed: **Google Cloud Dataflow**, Spark, Flink, etc.
+
+Core ideas:
+- **Pipeline**: your end-to-end job
+- **PCollection**: your dataset (bounded or unbounded)
+- **Transforms**: `Map`, `Filter`, `ParDo`, `GroupByKey`, `CombinePerKey`…
+- **Windowing**: time-bucketed views of unbounded streams
+- **Triggers & Watermarks**: control when results are emitted and how late data is handled
+
+---
+
+## Prerequisites
+
+- Python 3.8+ recommended
+- (Optional) Google Cloud project + billing if you want to run on Dataflow
+- Jupyter/Colab or local Python environment
+
+Install dependencies:
+
+```bash
+pip install --upgrade pip
+pip install apache-beam[gcp]  # includes I/O connectors for GCP
+# If you only need local: pip install apache-beam
+
+
+### Here is the video for the explanation : https://drive.google.com/drive/folders/1D24ynu3slACi1oCqxcsaUTHd5QEoz1Gt
