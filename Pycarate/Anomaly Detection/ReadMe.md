@@ -65,3 +65,5 @@ features  = art["features"]
 # (including scaled 'Time' and 'Amount' if your pipeline doesn't re-fit scaling)
 proba = model.predict_proba(df_new[features])[:, 1]
 pred  = (proba >= threshold).astype(int)
+```
+### Here is the video for explanation : https://drive.google.com/drive/folders/1JNM7-Wr-pp1J-zKzGZZ-x9CdA677E3GJ
