@@ -88,3 +88,5 @@ We also provide:
 - **Plots**: Elbow, Silhouette vs k; PCA 2D cluster scatter.
 - **Interpretation**: Cluster sizes and **profiles** (means per feature, original units).
 - **Actionable insights**: e.g., “Cluster 3 = young, high-spend; target with loyalty program”.
+
+### Here is the explanation Video : https://drive.google.com/drive/folders/1OmokwXeUqj1ON9jRnoG05zPntbpJGeF4
