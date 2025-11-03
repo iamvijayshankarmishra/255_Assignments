@@ -116,3 +116,6 @@ Our adaptive pass **relaxes** thresholds and tries **FP-Growth**, so you **alway
 ## License
 - Code: MIT (adjust as needed)  
 - Data: per Kaggle dataset terms for `heeraldedhia/groceries-dataset`
+
+
+### Here is the explanation vide : https://drive.google.com/drive/folders/1rxDyHGmSOPSVs0LSOhMbVTd93iJ_7xc7
