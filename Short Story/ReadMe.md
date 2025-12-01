@@ -70,7 +70,7 @@ Research indicates that model size is less important than context quality:
 | Artifact | Description | Link |
 |----------|-------------|------|
 | **Medium Article** | A narrative deep-dive into the technology and its implications for Data Mining. | [Read on Medium](https://medium.com/@vijayshankar.mishra/when-tables-finally-started-making-sense-my-deep-dive-into-llms-and-data-querying-3e8cf439b623?postPublishedType=initial) |
-| **Presentation Slides** | A visual deck summarizing the architecture, challenges, and benchmarks. | [View Slides]([presentation/slides.pdf](https://github.com/iamvijayshankarmishra/255_Assignments/blob/main/Short%20Story/When%20Tables%20Finally%20Started%20Making%20Sense.pptx)) |
+| **Presentation Slides** | A visual deck summarizing the architecture, challenges, and benchmarks. | [View Slides](https://github.com/iamvijayshankarmishra/255_Assignments/blob/main/Short%20Story/When%20Tables%20Finally%20Started%20Making%20Sense.pptx) |
 | **Video Presentation** | A 10-minute walkthrough of the concepts and slides. | [Watch on YouTube](https://www.youtube.com/watch?v=KWIr309PEvg) |
 
 
